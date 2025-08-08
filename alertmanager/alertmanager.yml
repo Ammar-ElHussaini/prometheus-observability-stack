@@ -1,0 +1,14 @@
+  global:
+    resolve_timeout: 15s
+
+  route:
+    receiver: 'slack-notifications' # Change the receiver to the email configuration
+
+  receivers:
+
+  - name: 'slack-notifications'
+    slack_configs:
+      - api_url: "https://hooks.slack.com/yourApi" # Replace with your Slack Incoming Webhook URL
+        channel: '#general' # Replace with the Slack channel or user where you want to send notifications
+        send_resolved: true # Set to true to send resolved alerts as well
+
