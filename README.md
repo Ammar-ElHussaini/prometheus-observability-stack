@@ -1,1 +1,1 @@
-# prometheus-observability-stack
+# prometheus-observability-stack<img width="1341" height="1024" alt="284796035-6a9f9d90-e56f-4038-82c7-e8eae29d8bcf" src="https://github.com/user-attachments/assets/3d22cf85-7490-48b2-9bf9-e9946cbea988" />
